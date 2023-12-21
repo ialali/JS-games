@@ -1,0 +1,15 @@
+#grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* Adjust the number of columns as needed */
+    gap: 10px; /* Adjust the gap between grid items */
+    max-width: 600px; /* Adjust the maximum width of the grid container */
+    margin: 0 auto; /* Center the grid container */
+    height: 80%;
+  }
+  
+  #grid img {
+    width: 100%; /* Make the images fill the grid items */
+    height: 100%; /* Make the images fill the grid items */
+    object-fit: cover; /* Maintain aspect ratio while covering the grid items */
+  }
+  
